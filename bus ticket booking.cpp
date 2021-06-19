@@ -28,7 +28,8 @@ int main()
 	cin>>standnumber;
 	
 	
-	switch (standnumber){
+	switch (standnumber)
+	{
 	
 	case 1:
 		 cout<<"climbed to dindigul\n"<<"\n"<<"your ticket amount is :"<<12<<" Rupees $\n"<<"THEN GO SIT \n";
@@ -51,6 +52,7 @@ int main()
 	default :
 	    cout<<"please choose a right NO : !"<<"\n"		;
 	}
+	
 	int v1=rand()%65;
 	cout<<"You go and sit there - your seat no is : "<<v1<<"\n";
 	
