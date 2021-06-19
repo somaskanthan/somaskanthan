@@ -7,7 +7,8 @@ using namespace std;
 
 int main()
 {
-	cout<<"\t\t\t\t\t WELCOME\n";
+    
+    cout<<"\t\t\t\t\t WELCOME\n";
 	
     string c1;
     string a;
@@ -27,16 +28,16 @@ int main()
     	cout<<"Please wait : "<<sec;
     	Sleep(1000);
     	system("cls");
-	} 
+    } 
 	
     if(a==b)
-	{
+    {
     int v1= rand() % 1000000;
     cout <<"your one time password is:  "<<v1<<"\n\n";
     }
     else
-	{
-    cout<<"you enter the wrong word\nplease try again later";
+    {
+    cout<<"you enter the wrong word\nplease try again laterÂ";
     }
     
     return 0;
