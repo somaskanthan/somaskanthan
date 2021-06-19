@@ -1,6 +1,8 @@
-#include<iostream>
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
 #include <windows.h>
-#include<string>
+#include <string>
 using namespace std;
 
 
@@ -14,7 +16,7 @@ int getdata()
 	
 int main()
 {
-   
+        srand(time(NULL)); 
 	cout<<"\t\t\t\t\t TAMIL NADU GOVERMENT  "<<"\n\n";
 	cout<<"\t\t\t\t\t     W E L C O M E"<<"\n\n"<<"\t\t\t\t\tDindigul to Kerala(KOCHI) \n\n";
 	getdata();
@@ -49,6 +51,8 @@ int main()
 	default :
 	    cout<<"please choose a right NO : !"<<"\n"		;
 	}
+	int v1=rand()%65;
+	cout<<"You go and sit there - your seat no is : "<<v1<<"\n";
 	
 	Sleep(10000);
 	
