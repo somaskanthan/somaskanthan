@@ -23,10 +23,11 @@ int main()
     cout<<"enter the verify and you get the OTP \n\n";
     cin>>a;
     
-    for(int sec=0;sec<=10;sec++)
+    for(int sec=10;sec>=0;sec--)
     {
     	cout<<"Please wait : "<<sec;
     	Sleep(1000);
+	system("color F3");
     	system("cls");
     } 
 	
